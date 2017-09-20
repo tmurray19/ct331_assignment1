@@ -1,6 +1,6 @@
-#import <stdio.h>
-#import "linkedList.h"
-#import "tests.h"
+#include <stdio.h>
+#include "linkedList.h"
+#include "tests.h"
 
 int main(int arg, char* argc[]){
   runTests();
