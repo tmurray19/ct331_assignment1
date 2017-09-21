@@ -16,7 +16,7 @@ listElement* createEl(char* data, size_t size){
     //malloc has had an error
     return NULL; //return NULL to indicate an error.
   }
-  char* dataPointer = malloc(size);
+  char* dataPointer = malloc(sizeof(char)*size);
   if(dataPointer == NULL){
     //malloc has had an error
     free(e); //release the previously allocated memory
